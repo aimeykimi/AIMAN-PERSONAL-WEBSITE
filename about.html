@@ -1,0 +1,247 @@
+<!DOCTYPE html>  
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Aiman</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #121212;
+        color: #ffffff;
+      }
+
+      a {
+        text-decoration: none;
+        color: #e3651d;
+        transition: color 0.3s ease;
+      }
+
+      a:hover {
+        color: #ffa04d;
+      }
+
+      h1, h2, h3 {
+        text-align: center;
+        color: #e3651d;
+      }
+
+      p {
+        line-height: 1.7;
+        margin: 0 0 1.5rem;
+      }
+
+      .logo {
+  font-size: 3rem;
+  color: #e3651d;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+      img.medium {
+       max-width: 200px;
+       height: auto;
+       display: block;
+       margin: 1rem auto;
+       border-radius: 10px;
+}
+
+
+      header {
+        background: #1f1f1f;
+        color: white;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      }
+
+      header .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      nav a {
+  font-size: 1.0rem;
+  color: white;
+  margin-left: 4rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active {
+  color: #e3651d;
+  border-bottom: 3px solid #e3651d;
+}
+
+@media (max-width: 995px) {
+  nav {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid #e3651d;
+    border-bottom: 3px solid #e3651d;
+    border-bottom-left-radius: 2rem;
+    padding: 1rem;
+    background-color: #161616;
+  }
+
+  nav.active {
+    display: block;
+  }
+
+  nav a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+
+  nav a:hover,
+  nav a.active {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid #e3651d;
+  }
+}
+
+      .introduction {
+        margin: 2rem auto;
+        max-width: 900px;
+        background: #222222;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .introduction h3 {
+        margin-bottom: 1rem;
+      }
+
+      .biography {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem auto;
+        max-width: 900px;
+        background: #1f1f1f;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .biography img {
+        flex: 1;
+        max-width: 250px;
+        margin-right: 2rem;
+        border-radius: 12px;
+      }
+
+      .biography .text-content {
+        flex: 2;
+      }
+
+      .biography ul {
+        list-style-type: disc;
+        margin: 10px 0;
+        padding-left: 20px;
+      }
+
+      .biography li {
+        margin: 5px 0;
+      }
+
+      .h1
+      {
+        text-align: center;
+      }
+
+      .aboutme{
+        font-size: xx-large;
+      }
+
+      .aboutme P{
+        text-align: center;
+        color: #e3651d;
+      }
+
+      footer {
+        background: #1f1f1f;
+        color: #ffffff;
+        text-align: center;
+        padding: 1.5rem 0;
+        margin-top: 2rem;
+        font-size: 0.9rem;
+      }
+
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Aiman</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        
+       
+      </nav>
+    </header>
+
+      <section class="aboutme">
+        <h3>ABOUT ME</h3><br />
+        <img src="images/aiman ufuture pic.png" alt="Profile Picture" class="medium" />
+        <p><strong>AIMAN HAKIMI</strong></p>
+
+      </section>
+  
+
+    <section class="introduction">
+      <h3>INTRODUCTION</h3><br />
+      <p><strong>Hi, Assalamualaikum Everyone!</strong></p>
+      <p>
+        My name is Aiman Hakimi, and I am a student at University Technology Mara Campus Machang. I am 21 years old and currently
+        reside in Klang, Selangor. I likes to playing sports especially football because it is my passion since I was a kid. My objectives in my life are to make my parents proud of me, achieve my ambitions and build a strengthen relationships with family members, friends, and many more. I am an introvert person 
+      </p>
+    </section>
+
+    <section class="biography">
+      <img src="images/aiman profile pic.jpg" alt="Biography Image" />
+      <div class="text-content">
+        <h3>Biography</h3>
+        <p><strong>Name:</strong> Aiman Hakimi bin Saharudin</p>
+        <p><strong>Location:</strong> Klang, Selangor</p>
+        <p><strong>Birthday:</strong> 13 July 2004</p>
+        <p><strong>Age:</strong> 21</p>
+        <p><strong>Total Siblings:</strong> 2</p>
+        <p><strong>My Hobbies:</strong> Playing football</p>
+        <ul>
+          <li>Student</li>
+          <li>Exploring New Places</li>
+          <li>Football</li>
+          <li>Learning New Skills</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Aiman Hakimi. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

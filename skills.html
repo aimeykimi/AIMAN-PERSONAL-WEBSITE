@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Skills - Aiman</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Aiman</a>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fa fa-bars"></i>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html" class="active">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="skills">
+        <div class="skill">
+          <h2>POWERPOINT</h2>
+          <img src="./images/powerpoint.png" alt="PowerPoint" class="skill-image" />
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h2>ADOBE PREMIERE PRO</h2>
+          <img src="./images/premiere pro.png" alt="Adobe Premiere Pro" class="skill-image" />
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 50%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h2>EXCEL</h2>
+          <img src="./images/excel.png" alt="Excel" class="skill-image" />
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 30%"></div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>&copy; 2025 Aiman. All Rights Reserved.</p>
+    </footer>
+      
+    <script>
+      const mobileMenu = document.getElementById("mobile-menu");
+      const nav = document.querySelector("nav");
+
+      mobileMenu.addEventListener("click", () => {
+        nav.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
